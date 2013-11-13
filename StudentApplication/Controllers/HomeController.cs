@@ -26,6 +26,7 @@ namespace StudentApplication.Controllers
 
         public ActionResult About()
         {
+            logger.Log("wow!");
             return View();
         }
     }

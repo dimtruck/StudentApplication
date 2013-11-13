@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentApplication.Tests", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{37061A7C-80A6-4192-9F33-B2A5BCE18FFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentApplication.UITests", "StudentApplication.UITests\StudentApplication.UITests.csproj", "{C20C2EA0-4FBB-462D-8E45-BD378AD2A0DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{37061A7C-80A6-4192-9F33-B2A5BCE18FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37061A7C-80A6-4192-9F33-B2A5BCE18FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37061A7C-80A6-4192-9F33-B2A5BCE18FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C20C2EA0-4FBB-462D-8E45-BD378AD2A0DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C20C2EA0-4FBB-462D-8E45-BD378AD2A0DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C20C2EA0-4FBB-462D-8E45-BD378AD2A0DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C20C2EA0-4FBB-462D-8E45-BD378AD2A0DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

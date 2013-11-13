@@ -10,7 +10,10 @@ namespace Domain.Repositories
     {
         public IQueryable<Student> ListAll()
         {
-            throw new NotImplementedException();
+            return new List<Student>(){
+                new Student(),
+                new Student()
+            }.AsQueryable();
         }
     }
 }

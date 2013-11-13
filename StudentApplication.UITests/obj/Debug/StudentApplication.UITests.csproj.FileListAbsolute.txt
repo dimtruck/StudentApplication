@@ -1,0 +1,9 @@
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\StudentApplication\StudentApplication.UITests\bin\Debug\StudentApplication.UITests.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\StudentApplication\StudentApplication.UITests\bin\Debug\StudentApplication.UITests.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\StudentApplication\StudentApplication.UITests\bin\Debug\nunit.framework.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\StudentApplication\StudentApplication.UITests\bin\Debug\WebDriver.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\StudentApplication\StudentApplication.UITests\bin\Debug\nunit.framework.xml
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\StudentApplication\StudentApplication.UITests\bin\Debug\WebDriver.xml
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\StudentApplication\StudentApplication.UITests\obj\Debug\StudentApplication.UITests.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\StudentApplication\StudentApplication.UITests\obj\Debug\StudentApplication.UITests.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\StudentApplication\StudentApplication.UITests\obj\Debug\StudentApplication.UITests.pdb

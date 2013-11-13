@@ -61,11 +61,16 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\HomeControllerTest.cs" />
+    <Compile Include="Repositories\StudentRepositoryTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj">
+      <Project>{37061a7c-80a6-4192-9f33-b2a5bce18ffe}</Project>
+      <Name>Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\StudentApplication\StudentApplication.csproj">
       <Project>{AE6E1C02-FFEB-4F4A-BE2B-1614BE3AB135}</Project>
       <Name>StudentApplication</Name>
