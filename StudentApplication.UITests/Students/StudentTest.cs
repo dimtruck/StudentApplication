@@ -22,8 +22,8 @@ namespace StudentApplication.UITests.Students
         [TestFixtureSetUp]
         public void SetUp()
         {
-            driver = new ChromeDriver(@"C:\Users\Administrator\chromedriver_win32_2.3");
-            driver.Navigate().GoToUrl("http://localhost:56176/");
+            driver = new ChromeDriver(@"C:\Users\Administrator\chromedriver_win32_2.8");
+            driver.Navigate().GoToUrl("http://localhost:8080/");
         }
 
         [TestFixtureTearDown]
@@ -41,8 +41,8 @@ namespace StudentApplication.UITests.Students
             //act
             StudentPage studentPage = page.viewAllStudents();
 
-            //asser
-            Assert.AreEqual("Student List", driver.Title);
+            //assert
+            Assert.AreEqual("this is my other title", driver.Title);
 
         }
     }

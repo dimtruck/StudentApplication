@@ -14,6 +14,7 @@ namespace StudentApplication.UITests.Common
         public HomePage(IWebDriver driver)
         {
             this.driver = driver;
+            
             if (!driver.Title.Equals("Student Application")) {
                 throw new NotFoundException("This is not Home Page, current page" +
                                 "is: " + driver.Url);

@@ -14,7 +14,8 @@ namespace StudentApplication.UITests.Common
         public StudentPage(IWebDriver driver)
         {
             this.driver = driver;
-            if (!driver.Title.Equals("Student List")) {
+            if (!driver.Title.Equals("this is my other title"))
+            {
                 throw new NotFoundException("This is not Student Page, current page" +
                                 "is: " + driver.Url);
             }

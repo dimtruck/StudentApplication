@@ -112,6 +112,7 @@
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\Concrete\FileLogger.cs" />
+    <Compile Include="Services\Concrete\LoggingInterceptor.cs" />
     <Compile Include="Services\Concrete\SystemOutLogger.cs" />
     <Compile Include="Services\Interfaces\ILogger.cs" />
     <Compile Include="WindsorControllerFactory.cs" />
@@ -214,8 +215,9 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Account\Index.cshtml" />
-    <Content Include="Views\Students\Index.cshtml" />
     <Content Include="Views\Student\ListCourses.cshtml" />
+    <Content Include="Views\Student\Index.cshtml" />
+    <Content Include="Views\Students\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -245,7 +247,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>False</AutoAssignPort>
-          <DevelopmentServerPort>56176</DevelopmentServerPort>
+          <DevelopmentServerPort>8080</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:55467/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>

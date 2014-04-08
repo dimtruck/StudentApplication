@@ -1,1 +1,2 @@
 C:\Users\Administrator\Documents\Visual Studio 2012\Projects\StudentApplication\StudentApplication.Tests\obj\Debug\StudentApplication.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\StudentApplication.Tests\obj\Debug\StudentApplication.Tests.csprojResolveAssemblyReference.cache

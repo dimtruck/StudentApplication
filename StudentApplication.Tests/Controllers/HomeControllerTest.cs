@@ -25,7 +25,7 @@ namespace StudentApplication.Tests.Controllers
             //Arrange
             logMock = new Mock<ILogger>();
             logMock.Setup(r => r.Log(It.IsAny<string>())).Verifiable("this fails");
-            controller = new HomeController(logMock.Object);
+            controller = new HomeController(logMock.Object, null);
         }
 
         [TearDown]

@@ -11,8 +11,8 @@ namespace Domain.Repositories
         public IQueryable<Student> ListAll()
         {
             return new List<Student>(){
-                new Student(),
-                new Student()
+                new Student(1, "Mike Jones", 15),
+                new Student(2, "Sally Hanes")
             }.AsQueryable();
         }
     }
